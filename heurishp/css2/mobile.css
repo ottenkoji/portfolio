@@ -1,0 +1,303 @@
+/* CSS Document */
+@charset "utf-8";
+html {
+	 scroll-behavior: smooth;
+	 }
+
+/*全体設定*/
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 3.5vw;
+    position: relative;
+		font-family: "Yu Mincho";
+		background-color: #f2f2f2;
+	}
+	
+a{
+	text-decoration: none;
+	}
+	
+ul{
+	padding-left: 0;
+	}
+	
+ul li{
+	list-style-type: none;
+	}
+
+h1{
+	margin-left: 10vw;
+	}
+	
+h1 img{
+	width: 40vw;
+	}	
+	
+h2{
+	clear: both;
+	font-size: 3vw;
+	}
+	
+.a{
+	border-bottom: 0.4vw solid #000;
+}
+	
+h3{
+	padding-top: 3vw;
+	}
+	
+/*ヘッダー固定バー*/
+header{
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	background-color: #fff;
+	z-index: 10;
+	}
+	
+/*ハンバーガーメニュー*/
+#nav_tab{
+    display: none;
+}
+
+#nav_btn{
+    display: block;
+    width: 15%;
+    height: 50%;
+    background-image: url(../images/han.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5vw;
+    right: 5%;
+    z-index: 1;
+}
+
+nav{
+    width: 75%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding-top: 3em;
+    background-color: rgba(230,230,230,0.8);
+    transition: .5s;
+}
+
+#nav_tab:checked+label>#nav_btn{
+    background-image: url(../images/batu.png);
+    background-size: 90%;
+}
+
+#nav_tab:checked~nav{
+    left: 25%;
+}
+
+nav ul li{
+    width: 100%;
+    margin-top: 40px;
+}
+
+#menu{
+	text-align: left;
+	font-size: 5vw;
+	margin-left: 5vw;
+	}
+	
+#menu a{
+	color: #212438;
+	}
+	
+/*PC版ナビ消去*/
+#pcnav{
+	display: none;
+	}
+
+/*ビジュアル設定*/
+#visual{
+	margin-top:27vw;
+	height:40vw;
+	width: 100vw;
+	}
+	
+#visual img{
+	width: 100vw;
+	}
+	
+#pc{
+	display: none;
+	}
+
+/*ラッパー設定*/
+#wrapper{
+	width: 80vw;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+/*アコーディオン設定*/
+
+#item input[type=radio] {
+  display: none;
+}
+
+#item label {
+  display: block;
+  padding: 15px;
+  background: #333;
+  color: #fff;
+  border-top: 1px solid #fff;
+}
+
+#item2{
+  border: 1px solid #333;
+  border-top: none;
+  display: none;
+  box-sizing: border-box;
+	max-height: 0;
+}
+
+#item p {
+ margin: 0;
+ padding: 15px;
+}
+
+#item input[type=radio]:checked + label +#item2 {
+  display: block;
+	max-height: 1000vw;
+}
+
+#item label:after{
+	content:"";
+  display:block;
+  width:8px;
+  height:8px;
+  border-top: #fff 2px solid;
+  border-right: #fff 2px solid;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  position:relative;
+  left: 35vw;
+	top: -3vw;
+  margin: auto;
+	}
+
+/*限定商品画像設定*/
+#limit{
+	margin-top: 70vw;
+	}
+
+#limit figure{
+	float: left;
+	margin: 0;
+	width: 30vw;
+	padding-bottom: 8vw;
+	padding-left:7vw;
+	}
+	
+#limit figure img{
+	width: 30vw;
+	
+	}
+
+.first{
+	position: relative;
+	right: -8vw;
+	top: -5vw;
+	float: right;
+	}
+
+.first img{
+	width: 5vw;
+	}
+
+/*定番商品画像設定*/
+#item h3{
+	display: none;
+	}
+
+#item2 p img{
+	width: 50vw;
+	}
+	
+#item2 figure{
+	float: left;
+	margin: 0;
+	width: 30vw;
+	height: 50vw;
+	padding-top: 2vw;
+	padding-left: 6.5vw;
+	}
+	
+#item2 figure img{
+	width: 30vw;
+	}
+
+#item2::after{
+	clear: both;
+	content: "";
+	display: block;
+	}
+
+/*店舗案内設定*/
+#news ul li{
+	padding-bottom: 2vw;
+	}
+
+#access{
+	background-color: #212438;
+	color: #f2f2f2;
+	padding-left: 3vw;
+	}
+	
+#access p{
+	padding-top: 5vw;
+	font-weight: 100;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	}
+	
+#access ul{
+	margin-bottom: 0;
+	}
+	
+#access ul li{
+	padding-bottom: 0.5vw;
+	}
+	
+
+	
+.contact p{
+	margin-top: 0;
+	}
+	
+span{
+	font-weight: bold;
+	font-size: 1.5em;
+	}
+
+.map{
+	margin-left: 1vw;
+	}	
+	
+iframe{
+	width: 72vw;
+	height: 54vw;
+	}
+	
+.staff,.staffmo img{
+	width: 80vw;
+	}
+	
+.staff{
+	display: none;
+	}
+	
+a.sample{
+	display: block;
+	padding-top: 27vw;
+	margin-top: -27vw;
+	}

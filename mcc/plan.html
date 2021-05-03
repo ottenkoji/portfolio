@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>活動予定</title>
+<link href="css/styleplan.css" rel="stylesheet">
+</head>
+
+
+<body>
+<div id= "wrapper">
+<!--ここからヘッダーの設定-->
+<header>
+
+<h1><img src="icon/plan.png" alt="活動予定" width="290" height="120"></h1>
+
+<nav>
+<dl class="icon"><a href="index.html">
+<dt><img src="icon/nav1.png" alt="ホーム" width="74" height="72"></dt>
+<dd><img src="icon/nav11.png" alt="ホーム文字" width="74" height="13"></dd>
+</a></dl>
+
+<dl class="icon"><a href="profile.html">
+<dt><img src="icon/nav2.png" alt="自己紹介" width="74" height="72"></dt>
+<dd><img src="icon/nav22.png" alt="自己紹介文字" width="74" height="13"></dd>
+</a></dl>
+
+<dl class="icon"><a href="history.html">
+<dt><img src="icon/nav3.png" alt="活動紹介" width="74" height="72"></dt>
+<dd><img src="icon/nav33.png" alt="活動紹介文字" width="74" height="13"></dd>
+</a></dl>
+
+<dl class="icon"><a href="plan.html">
+<dt><img src="icon/nav4.png" alt="活動予定" width="74" height="72"></dt>
+<dd><img src="icon/nav44.png" alt="活動予定文字" width="74" height="13"></dd>
+</a></dl>
+
+<dl class="icon"><a href="staff.html">
+<dt><img src="icon/nav6.png" alt="スタッフ募集" width="74" height="72"></dt>
+<dd><img src="icon/nav66.png" alt="スタッフ募集文字" width="74" height="13"></dd>
+</a></dl>
+</nav>
+
+</header>
+<!--ここまでヘッダーの設定-->
+
+
+
+<!--ここからメインの設定-->
+
+<div id="main">
+
+<section class="text">
+<h2><span>2021/02/13(土)</span><br>バレンタインプロジェクト</h2>
+<div class="line"><img src="icon/line1.png" alt="線１" width="690" height="37"></div>
+<p>大切な人へのささやかな贈り物を、親子で一緒につくりませんか？<br>
+湯梨浜町のドレミでMCCがチョコづくりのお手伝いをします。<br>
+チョコをオリジナルにデコレーションして作り、メッセージカードも書ける準備をしています！</p>
+<h3>詳細情報</h3>
+<p>時間　　　　13時～15時<br>
+場所　　　　東伯郡　湯梨浜町　旭2－22－2　「ドレミ」<br>
+対象　　　　高校生以下の児童生徒とその保護者（親子そろっての参加をお願いします。）<br>
+参加費　　1家庭500円（材料費）<br>
+予約制　　「参加申し込み」ページよりご予約ください。<br>
+持ち物　　三角巾・エプロン・ハンカチ<br>
+注意点　　当日の検温で37.4℃以上の方は入場をご遠慮いただきます。<br>
+　　　　　　　直近の2週間以内に県外への移動があった方の入場もご遠慮いただきます。<br>
+　　　　　　　感染症対策にご協力ください。<br>
+その他　　1家庭につき3個分のチョコレートを作っていただくように準備いたします。<br>
+</p>
+</section>
+
+<div id="form"><p><a href="plan.html">
+申し込み専用フォームはこちら
+</a></p></div>
+
+</div>
+
+<!--ページトップへ戻るボタン-->
+
+<p id="page-top">
+<a href="#wrap">ページ<br>上へ</a>
+</p>
+<script src="backToTop.js"></script>
+<script>
+$(function() {
+    var topBtn = $('#page-top');	
+	topBtn.hide();
+		$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			topBtn.fadeIn();
+		} else {
+			topBtn.fadeOut();
+		}
+	});
+	topBtn.click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 500);
+		return false;
+    });
+});
+</script>
+</body>
+
+</html>

@@ -1,0 +1,253 @@
+/* CSS Document */
+@charset "utf-8";
+/*全体設定*/
+html {
+	 scroll-behavior: smooth;
+	 }
+
+body{
+	 margin: 0 auto;
+   overflow-x: hidden;
+   overflow-y: auto;
+   font-size: 1.5vw;
+   position: relative;
+	 font-family: "Yu Mincho";
+	 background-color: #f2f2f2;
+	 }
+	 
+h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	}
+	
+h1 img{
+	width: 18vw;
+	}
+	
+h2{
+	clear: both;
+	}
+	
+.a{
+	border-bottom: 0.2vw solid #000;
+}
+	
+ul li{
+	list-style-type: none;
+	}
+	
+a {
+	text-decoration: none;
+	}
+
+header input[type="checkbox"]{
+	display: none;
+	}
+	
+/*モバイル版ナビ消去*/
+nav{
+	display: none;
+	}
+	
+/*ビジュアル設定*/
+#visual{
+	height: 40vw;
+	}
+	
+#visual img{
+	width: 99vw;
+	}
+	
+#mo{
+	display: none;
+	}
+	
+/*ナビ*/	
+#pcnav{
+	float: left;
+	width: 15vw;
+	height: 48vw;
+	background-color: #212438;
+	position: sticky;
+  top: 0;
+	}
+	
+#pcnav ul{
+	padding-left: 1vw;
+	}
+	
+#pcnav ul li{
+	margin-bottom: 1.5vw;
+	}
+	
+.lit{
+	margin-left: 2vw;
+	font-size: 1vw;
+	}
+	
+#pcnav a{
+	color: #fff;
+	}
+	
+#pcnav a:hover{
+	background-color: #fff;
+	color: #212438;
+	
+	transition: background-color 1s, color 1s;
+	}
+
+
+/*ナビより下設定*/
+#item3{
+	height: 287.4vw;
+	}
+#wrapper{
+	width: 84%;
+	float: right;
+	}
+	
+ul #menu{
+	padding-left: 0;
+	}
+	
+/*限定商品*/
+.first{
+	position: relative;
+	left: -2vw;
+	top: -2vw;
+	float: right;
+	}
+
+#limit{
+	margin-left: 1.5vw;
+	}
+
+#limit figure{
+	float: left;
+	width: 14vw;
+	margin-left: 0vw;
+	margin-right: 1vw;
+	}
+	
+#limit figure img{
+	width: 14vw;
+	}
+	
+/*通常商品*/
+#item{
+	margin-left: 1.5vw;
+	}
+
+#item label{
+	display: none;
+	}
+#item p{
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+
+#tyousei{
+	height: 5vw;
+	}	
+	
+#figuresita{
+	}
+	
+#item input[type=radio]{
+	display: none;
+	}
+	
+#item figure{
+	width: 14vw;
+	height: 22vw;
+	float: left;
+	margin-left: 0;
+	margin-right: 1vw;
+	}
+	
+#item figure img{
+	width: 14vw;
+	}
+	
+section{
+	height: 30vw;
+	}
+	
+/*お知らせ*/
+#news{
+	margin-left: 1.5vw;
+	}
+
+#news ul li{
+	margin-bottom: 2vw;
+	margin-left: -2.8vw;
+	}
+	
+.staff p{
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	}
+	
+.staff img:hover{
+	transform: translate(0,-1vw);
+	transition: 0.5s;
+	opacity: 0.8;
+	}
+	
+.staffmo{
+	display: none;
+	}
+/*アクセス*/
+#access{
+	color: #fff;
+	margin-left: -1vw;
+	}
+	
+.access{
+	background-color: #212438;
+	float: left;
+	width: 42.5vw;
+	height: 31vw;
+	}
+	
+.access p{
+	margin-left: 1.5vw;
+	font-size: 2.5vw;
+	}
+	
+.access ul li{
+	margin-bottom: 1.5vw;
+	margin-left: -1vw;
+	}
+	
+.map{
+	background-color: #212438;
+	float: left;
+	width: 41vw;
+	height: 31vw;
+	}
+	
+iframe{
+	width: 32vw;
+	height: 24vw;
+	margin-top: 3vw;
+	margin-left: 3vw;
+	}
+	
+.contact p{
+	margin-left: 1.5vw;
+	}
+	
+.contact img:hover{
+	transform: translate(0,-1vw);
+	transition: 0.5s;
+	opacity: 0.8;
+	}
+	
+.b{
+	border-bottom: 1px solid #fff;
+	width: 32.5vw;
+	}
+

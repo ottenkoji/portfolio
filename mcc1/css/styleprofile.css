@@ -1,0 +1,149 @@
+@charset "utf-8";
+body{
+	font-family:"UD デジタル 教科書体 NK-B","ＭＳ Ｐ明朝";
+	line-height:1.5;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+img{
+	border:none;
+}
+
+a{
+	text-decoration:none;
+}
+
+li{
+	list-style-type:none;
+}
+#wrapper{
+	width:1366px;
+	margin:0 auto;
+	height:900px;
+	background-color:#ffffcc;
+}
+
+header{
+	width:1366px;
+	height:210px;
+	background-image:url("../icon/flag.png");
+	background-repeat:no-repeat;
+}
+
+header h1{
+	width:290px;
+	height:120px;
+	float:left;
+	margin-top:70px;
+	margin-left:197px;
+}
+
+nav{
+	width:450px;
+	height:85px;
+	float:right;
+	margin-top:47px;
+	margin-right:42px;
+	display:flex;
+	justify-content:space-between;
+}
+
+.icon:hover{
+	opacity:0.6;
+}
+
+nav dl{
+	width:74px;
+	line-height:0.7;
+}
+
+#up{
+	width:1010px;
+	height:230px;
+	margin:15px auto;
+	display:flex;
+	justify-content:space-between;
+}
+
+#down{
+	width:1010px;
+	height:150px;
+	margin:35px auto;
+	display:flex;
+	justify-content:space-between;
+}
+
+.text{
+	width:468px;
+	height:150px;
+	color:#333;
+}
+
+
+.text span{
+	vertical-align:middle;
+}
+
+
+.text img{
+	vertical-align:middle;
+}
+
+
+
+
+h2{
+	width:468px;
+	height:37px;
+	float:left;
+	font-size:30px;
+	margin-bottom:10px;
+}
+
+.line{
+	float:right;
+}
+
+
+
+.text p{
+	width:468px;
+	height:100px;
+	font-size:20px;
+	line-height:1.8;
+	margin-top:25px;
+}
+
+#icon{
+	width:330px;
+	margin-top:-25px;
+	display:flex;
+	justify-content:space-between;
+}
+
+/*ページトップへ戻るボタン*/
+
+#page-top {
+    position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 77%;
+}
+#page-top a {
+	background: #0033cc;
+	text-decoration: none;
+	color: #fff;
+	width: 60px;
+	padding: 20px 0;
+	text-align: center;
+	display: block;
+	border-radius: 5px;
+}
+#page-top a:hover {
+	text-decoration: none;
+	background: #999;
+}

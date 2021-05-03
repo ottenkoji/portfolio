@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body{
+	font-family:"UD デジタル 教科書体 NK-B";
+	line-height:1.5;
+	background-color:#ffffcc;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+img{
+	border:none;
+}
+
+a{
+	text-decoration:none;
+}
+
+li{
+	list-style-type:none;
+}
+
+#wrapper{
+	width:100%;
+	margin:0 auto;
+	height:2500px;
+}
+
+
+/*ここからヘッダーの設定*/
+
+header{
+	width:100%;
+	background-image:url("../image/flag1.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+/*	background-color:#ffff00;*/
+}
+
+
+header h1{
+	width:40%;
+	padding-top:80px;
+	padding-left:40px;
+}

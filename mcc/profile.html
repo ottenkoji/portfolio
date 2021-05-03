@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>自己紹介</title>
+<link href="css/styleprofile.css" rel="stylesheet">
+</head>
+
+
+<body>
+<div id= "wrapper">
+<!--ここからヘッダーの設定-->
+<header>
+
+<h1><img src="icon/title.png" alt="自己紹介" width="290" height="120"></h1>
+
+<nav>
+<dl class="icon"><a href="index.html">
+<dt><img src="icon/nav1.png" alt="ホーム" width="74" height="72"></dt>
+<dd><img src="icon/nav11.png" alt="ホーム文字" width="74" height="13"></dd>
+</a></dl>
+
+<dl class="icon"><a href="profile.html">
+<dt><img src="icon/nav2.png" alt="自己紹介" width="74" height="72"></dt>
+<dd><img src="icon/nav22.png" alt="自己紹介文字" width="74" height="13"></dd>
+</a></dl>
+
+<dl class="icon"><a href="history.html">
+<dt><img src="icon/nav3.png" alt="活動紹介" width="74" height="72"></dt>
+<dd><img src="icon/nav33.png" alt="活動紹介文字" width="74" height="13"></dd>
+</a></dl>
+
+<dl class="icon"><a href="plan.html">
+<dt><img src="icon/nav4.png" alt="活動予定" width="74" height="72"></dt>
+<dd><img src="icon/nav44.png" alt="活動予定文字" width="74" height="13"></dd>
+</a></dl>
+
+<dl class="icon"><a href="staff.html">
+<dt><img src="icon/nav6.png" alt="スタッフ募集" width="74" height="72"></dt>
+<dd><img src="icon/nav66.png" alt="スタッフ募集文字" width="74" height="13"></dd>
+</a></dl>
+</nav>
+
+</header>
+<!--ここまでヘッダーの設定-->
+
+
+
+<!--ここからメインの設定-->
+
+<div>
+<div id="up">
+
+<section class="text">
+<h2><span>MCCとは</span><div class="line">
+<img src="icon/line3.png" alt="線３" width="325" height="37">
+</div></h2>
+<p>「子どもに出会いを！」をスローガンとして掲げるボランティア団体。
+さまざまな出会いを子どもに手渡すことで、その成長に寄与することが目的。<br>
+様々なスタッフが、様々な発想で企画を創り出します。</p>
+</section>
+
+<section class="text">
+<h2><span>団体情報</span><div class="line">
+<img src="icon/line3.png" alt="線３" width="325" height="37">
+</div></h2>
+<p>創設　　　    2029/07/21<br>
+拠点　　　    鳥取県中部を中心に活動<br>
+事務所　  鳥取県東伯郡湯梨浜町旭1001-1<br>
+　　　　　　        JR松崎駅前　とんかつ専門店「とん吉」<br>
+メール　  ｍｃｃ．ｖｏｌｕｎｔｅｅｒ．２０１９＠ｇｍａiｌ．ｃｏｍ</p>
+</section>
+
+</div>
+
+<div id="down">
+
+<section class="text">
+<h2><span>出会いとは</span>
+<div class="line">
+<img src="icon/line3.png" alt="線３" width="325" height="37">
+</div></h2>
+<p>MCCでは、大きく２つの出会いを提供していきます。<br>
+それは、「人との出会い」と「出来事との出会い」です。<br>
+さまざまな人と出会い、同じ時間を過ごし、語り合うことでの学び・気付き。
+さまざまな出来事と出会い、自分の経験値を広げて深める。<br>
+MCCは子ども達に「出会い」を提供することで青少年健全育成を図ります。</p>
+</section>
+
+<section class="text">
+<h2><span>SNS情報</span><div class="line">
+<img src="icon/line3.png" alt="線３" width="325" height="37">
+</div></h2>
+<p>各種SNSにて情報発信中！<br>
+<div id="icon">
+<a href="https://twitter.com/MCC_tottori"><img src="icon/twitter.png" alt="ツイッター" width="53" height="53"></a>
+<img src="icon/line.png" alt="ライン" width="53" height="53">
+<a href="https://instagram.com/meecount.creators.club?igshid=mmu569d6hl9v"><img src="icon/instagram.png" alt="インスタグラム" width="53" height="53"></a>
+<img src="icon/facebook.png" alt="フェイスブック" width="58" height="58">
+</div></p>
+</section>
+
+</div>
+</div>
+
+<!--ページトップへ戻るボタン-->
+
+<p id="page-top">
+<a href="#wrap">ページ<br>上へ</a>
+</p>
+<script src="backToTop.js"></script>
+<script>
+$(function() {
+    var topBtn = $('#page-top');	
+	topBtn.hide();
+		$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			topBtn.fadeIn();
+		} else {
+			topBtn.fadeOut();
+		}
+	});
+	topBtn.click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 500);
+		return false;
+    });
+});
+</script>
+</body>
+
+</html>

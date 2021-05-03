@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>活動紹介</title>
+<!--<link href="css/stylehistory.css" rel="stylesheet">-->
+<link href="css/try.css" rel="stylesheet">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="js/jquery.js" charset="utf-8"></script>
+<script src="js/jquery.page-scroller.js" charset="utf-8"></script>
+
+</head>
+
+
+<body>
+<div id= "wrapper">
+<!--ここからヘッダーの設定-->
+<header>
+<p><img src="image/flag1.png" alt=""></p>
+<h1><img src="image/nav2.png" alt="活動紹介"></h1>
+</header>
+
+<input type="checkbox" id="nav_tab">
+<label for="nav_tab"><span id="nav_btn"></span></label>
+
+<!--ここからナビの設定-->
+
+<nav>
+<ul>
+
+<li><a href="index.html">
+<img src="image/hnav1.png" alt="ホーム">
+</a></li>
+
+<li><a href="plofile.html">
+<img src="image/hnav2.png" alt="自己紹介">
+</a></li>
+
+<li><a href="history.html">
+<img src="image/hnav3.png" alt="活動紹介">
+</a></li>
+
+<li><a href="plan.html">
+<img src="image/hnav4.png" alt="活動予定">
+</a></li>
+
+<li><a href="staff.html">
+<img src="image/hnav5.png" alt="スタッフ募集">
+</a></li>
+
+</nav>
+
+
+<!--ここまでヘッダーの設定-->
+
+
+
+<!--ここからメインの設定-->
+
+<div id="main">
+
+<div class="text">
+<div class="line"><img src="image/line11.png" alt="線１"></div>
+<h2><span>2020/02/24</span><br>裏クリスマス</h2>
+<p>未熟者の白サンタは、赤サンタになるための試験を受ける！<br>
+白サンタに課せられた試験は、<br>
+色んな方法で色んな人と心を通じ合わせること。<br>
+集まってくれた子ども達と楽しく試験を乗り越えてゆく！</p>
+<div class="fhoto"><img src="image/h1.jpg"></div>
+</div>
+
+<div class="text">
+<div class="line"><img src="image/line11.png" alt="線１"></div>
+<h2><span>2020/08/26</span><br>第一回子ども食堂</h2>
+<p>感染症の拡大により、収入が減少してしまったひとり親家庭の<br>
+支援を目的とした、テイクアウト型の配食企画。<br>
+鳥取県の助成金を活用し、計40食のお弁当を無料配布。<br>
+地元のとんかつ専門店「とん吉」様をはじめ<br>
+沢山の企業に協賛を頂きました。</p>
+<div class="fhoto"><img src="image/h2.jpg"></div>
+</div>
+
+<div class="text">
+<div class="line"><img src="image/line11.png" alt="線１"></div>
+<h2><span>2020/10/19</span><br>第二回子ども食堂</h2>
+<p>味の旅と称して県外グルメに着目し<br>
+オリジナル弁当を販売しました。<br>
+九州の大分県から「とり天」、<br>
+福岡県から「ごぼ天」等をとり入れ、<br>
+前回の子ども食堂を上回る100食以上を完売しました。</p>
+<div class="fhoto"><img src="image/h3.jpeg"></div>
+</div>
+
+<div class="text">
+<div class="line"><img src="image/line11.png" alt="線１"></div>
+<h2><span>2020/12/12</span><br>光の実プロジェクト</h2>
+<p>クリスマスに向けてのイルミネーション飾りつけ企画。<br>
+湯梨浜町の特産品である梨、<br>
+その果実袋をLEDに被せて「光の実」を作りました！<br>
+袋には子どもたちの思い思いの<br>
+イラストやメッセージなど！</p>
+<div class="fhoto"><img src="image/h4.jpeg"></div>
+</div>
+
+<div class="text">
+<div class="line"><img src="image/line11.png" alt="線１"></div>
+<h2><span>2020/12/24</span><br>サンタプロジェクト</h2>
+<p>保護者からあらかじめプレゼントを受け取り<br>
+イブの夜に、スタッフが<br>
+サンタになりきってお宅に登場！<br>
+クリスマスを特別な思い出に彩る
+大好評企画。</p>
+<div class="fhoto"><img src="image/h5.jpg"></div>
+</div>
+
+</div>
+
+<!--ページトップへ戻るボタン-->
+
+<p id="page-top">
+<a href="#wrap">ページ<br>上へ</a>
+</p>
+<script src="backToTop.js"></script>
+<script>
+$(function() {
+    var topBtn = $('#page-top');	
+	topBtn.hide();
+		$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			topBtn.fadeIn();
+		} else {
+			topBtn.fadeOut();
+		}
+	});
+	topBtn.click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 500);
+		return false;
+    });
+});
+</script>
+</body>
+
+</html>

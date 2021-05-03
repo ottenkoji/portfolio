@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: serif;
+}
+.contact {
+	width: 100%;
+	margin-rigth: auto;
+	margin-left: auto;
+	padding: 150px 20px 0;
+	box-sizing: border-box;
+	background-color: #f2f2f2;
+}
+
+ input[type="text"], [type="tel"], [type="email"] {
+	width: 70%;
+	padding: 5px;
+	font-size: 1rem;
+}
+
+textarea {
+	width: 95%;
+	height: 100px;
+	padding: 5px;
+	font-size: 1rem;
+}
+footer {
+	text-align: center;
+}
+

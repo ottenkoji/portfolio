@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	font-family: "UD デジタル 教科書体 NK-B", "ヒラギノ明朝 Pro W3", serif;
+	/*	font-size:62px;
+*/	line-height:1.5;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+img{
+	border:none;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:link { 
+	color:#FF4900; text-decoration:none
+}
+
+a:visited { 
+	color: #FF4900; text-decoration:none
+}
+
+a:hover { 
+	color: #FF4900; text-decoration:none
+}
+
+li{
+	list-style:none;
+}
+
+/*ここからホーム*/
+
+#homewrapper{
+	width:100%;
+	height:500px;
+	background-color:#fff;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+	background-image: url("../img/portfoliotop.jpg");
+	background-size: 100vw;
+	background-position: top;
+	background-repeat:no-repeat;
+}
+
+#nav_btn{
+	display:none;
+}
+
+#nav_tab{
+	display:none;
+}
+
+nav{
+	width:50%;
+	height:0;
+	display:block;
+	position:relative;
+	top:0;
+	left:0;
+	padding-top:0;
+	font-size:120%;
+}
+
+
+#mainhome{
+	display:none;
+}
+
+
+#sentens p{
+	display:none;
+}
+
+#navcontact{
+	position:absolute;
+	top:8.6vw;
+	left:30vw;
+}
+
+#navweb{
+	position:absolute;
+	top:23vw;
+	left:33.4vw;
+}
+
+#navdtp{
+	position:absolute;
+	top:29.8vw;
+	left:37.1vw;
+}
+
+#navplofile{
+	position:absolute;
+	top:39.8vw;
+	left:34.6vw;
+}
+
+#navhome{
+	display:none;
+}
+
+#ipadsentens{
+	color:#00303F;
+	font-size:100%;
+	text-align:center;
+	margin-top:8%;
+}
+
+/*ここからプロフィール*/
+
+#wrapper{
+	width:100%;
+	height:650px;
+	background-color:#fff;
+	background-image:url(../img/DTP..jpg);
+	background-repeat:no-repeat;
+	
+}
+
+#wrapper h1{
+	font-size:33px;
+	color:#ff4900;
+	position:absolute;
+	top:9.5vw;
+	left:22vw;
+}
+
+#nnavcontact{
+	position:absolute;
+	top:1.6vw;
+	right:-48vw;
+	color:#FFF;
+	font-size:100%;
+}
+
+#nnavweb{
+	position:absolute;
+	top:1.6vw;
+	right:-37vw;
+	color:#FFF;
+	font-size:100%;
+}
+
+#nnavdtp{
+	position:absolute;
+	top:1.6vw;
+	right:-31vw;
+	color:#FFF;
+	font-size:100%;
+}
+
+#nnavplofile{
+	position:absolute;
+	top:1.6vw;
+	right:-25vw;
+	color:#FFF;
+	font-size:100%;
+}
+
+#nnavhome{
+	position:absolute;
+	top:1.6vw;
+	right:-15vw;
+	color:#FFF;
+	font-size:100%;
+}
+
+.boxpro{
+	color:#FFFFFF;
+	font-size:90%;
+	width:36%;
+}
+
+#pro1{
+	position:absolute;
+	top:15.6vw;
+	left:22vw;
+}
+
+#pro2{
+	position:absolute;
+	top:29vw;
+	left:22vw;
+}
+
+#pro3{
+	position:absolute;
+	top:25.6vw;
+	left:64.6vw;
+}
+
+/*ここからDTP*/
+
+#dtpwrapper{
+	width:100%;
+	height:650px;
+	background-color:#fff;
+	background-image:url(../img/DTP..jpg);
+	background-repeat:no-repeat;
+	
+}
+
+#dtpwrapper h1{
+	font-size:33px;
+	color:#ff4900;
+	position:absolute;
+	top:9.5vw;
+	left:22vw;
+}
+
+/*#nnavcontact{
+	position:absolute;
+	top:1.6vw;
+	left:88vw;
+	color:#FFF;
+	font-size:24px;
+}
+
+#nnavweb{
+	position:absolute;
+	top:1.6vw;
+	left:82vw;
+	color:#FFF;
+	font-size:24px;
+}
+
+#nnavdtp{
+	position:absolute;
+	top:1.6vw;
+	left:76vw;
+	color:#FFF;
+	font-size:24px;
+}
+
+#nnavplofile{
+	position:absolute;
+	top:1.6vw;
+	left:65.5vw;
+	color:#FFF;
+	font-size:24px;
+}
+
+#nnavhome{
+	position:absolute;
+	top:1.6vw;
+	left:57.6vw;
+	color:#FFF;
+	font-size:24px;
+}
+*/
+#dtp {
+	display:none;
+}
+
+.box{
+	display:none;
+}
+
+.box2{
+	
+	color:#FFFFFF;
+	font-size:16px;
+	width:36%;
+}
+
+#dtpbox1{
+	position:absolute;
+	top:15.6vw;
+	left:22vw;
+}
+
+#dtpbox2{
+	position:absolute;
+	top:29.6vw;
+	left:22vw;
+}
+
+#maindtp{
+	/*padding-top:60%;*/
+	display:none;
+}
+
+.gallery{
+	margin:0 auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	width:90%;
+	padding-bottom:30px;
+}
+
+.gallery a{
+	margin-top:2%;
+}
+
+.gallery img{
+	border:solid 0.25px #999999;
+}
+
+#ipadmaindtp{
+	padding-top:60%;
+}
+
+
+#ipadmaindtp .gallery{
+	margin:0 auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	width:90%;
+	padding-bottom:30px;
+}
+
+/*ここからWEB*/
+
+#web{
+	display:none;
+}
+
+.mainweb{
+	padding-top:60%;
+}
+
+.hp{
+	margin:0 auto;
+	width:60%;
+	height:560px;
+	font-size:18px;
+/*	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	width:65%;
+*/	/*padding-bottom:30px;*/
+}
+
+.hp h2{
+	padding-top:118%;
+	color:#09002E;
+	margin:0 auto;
+}
+
+.hp p{
+	color:#09002E;
+	width:100%;
+	margin:0 auto;
+}
+
+.hp a{
+	margin-top:2%;
+	margin:0 auto;
+}
+
+.hp figure{
+	height:auto;
+	margin-bottom:50px;
+}
+
+figcaption{
+	position: relative;
+	top: 1vw;
+	left: 0vw;
+}
+
+#nikomeikou{
+	margin-top:10px;
+}
+
+.hp figure img{
+	margin-top:5%;
+}
+
+/*ここからコンタクト*/
+
+#contactbox{
+	display:none;
+}
+
+.boxcontact {
+	position:absolute;
+	top:15.6vw;
+	left:22vw;
+	color:#FFFFFF;
+	font-size:16px;
+	width:70%;
+}
+
+#contactbox2 form{
+	position:absolute;
+	top:29.6vw;
+	left:22vw;
+	color:#FFFFFF;
+	font-size:16px;
+	width:36%;
+}

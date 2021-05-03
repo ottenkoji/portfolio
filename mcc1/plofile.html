@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>自己紹介</title>
+<link href="css/try.css" rel="stylesheet">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="js/jquery.js" charset="utf-8"></script>
+<script src="js/jquery.page-scroller.js" charset="utf-8"></script>
+
+</head>
+
+
+<body>
+<div id= "wrapper">
+<!--ここからヘッダーの設定-->
+<header>
+<p><img src="image/flag1.png" alt=""></p>
+<h1><img src="image/nav1.png" alt="自己紹介"></h1>
+</header>
+
+<input type="checkbox" id="nav_tab">
+<label for="nav_tab"><span id="nav_btn"></span></label>
+
+<!--ここからナビの設定-->
+
+<nav>
+<ul>
+
+<li><a href="index.html">
+<img src="image/hnav1.png" alt="ホーム">
+</a></li>
+
+<li><a href="plofile.html">
+<img src="image/hnav2.png" alt="自己紹介">
+</a></li>
+
+<li><a href="history.html">
+<img src="image/hnav3.png" alt="活動紹介">
+</a></li>
+
+<li><a href="plan.html">
+<img src="image/hnav4.png" alt="活動予定">
+</a></li>
+
+<li><a href="staff.html">
+<img src="image/hnav5.png" alt="スタッフ募集">
+</a></li>
+
+</nav>
+
+
+<!--ここまでヘッダーの設定-->
+
+
+
+<!--ここからメインの設定-->
+
+<div id="main">
+
+<div class="text">
+<div class="line"><img src="image/line11.png" alt="線１"></div>
+<h2>MCCとは</h2>
+<p>「子どもに出会いを！」をテーマに掲げる<br>
+ボランティア団体。<br>
+さまざまな出会いを子どもに手渡し、<br>
+その成長に寄与することが目的。<br>
+様々なスタッフが、様々な企画を創り出します。</p>
+</div>
+
+<div class="text">
+<div class="line"><img src="image/line11.png" alt="線１"></div>
+<h2>出会いとは</h2>
+<p>MCCでは、大きく２つの出会いを提供していきます。<br>
+それは、「人との出会い」と「出来事との出会い」。<br>
+さまざまな人と出会い、<br>
+同じ時間を過ごし、語り合うことでの学び・気付き。<br>
+さまざまな出来事と出会い、<br>
+自分の経験値を広げて深める。<br>
+MCCは子ども達に「出会い」を提供することで<br>
+青少年健全育成を図ります。</p>
+</div>
+
+<div class="text">
+<div class="line"><img src="image/line11.png" alt="線１"></div>
+<h2>団体詳細</h2>
+<table width="753" border="0">
+  <tr>
+    <td width="161">創立</td>
+    <td width="576">２０１９/０７/２１</td>
+  </tr>
+  <tr>
+    <td>拠点</td>
+    <td>鳥取県中部を中心に活動</td>
+  </tr>
+  <tr>
+    <td>事務所</td>
+    <td>鳥取県東伯郡湯梨浜町大字旭４１２－１</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>JR松崎駅前　とんかつ専門店「とん吉」</td>
+  </tr>
+  <tr>
+    <td>メール</td>
+    <td>mcc.volunteer.2019@gmail.com</td>
+  </tr>
+</table>
+
+<!--<p>創設　　 ２０１９/０７/２１<br>
+拠点　　 鳥取県中部を中心に活動<br>
+事務所　 鳥取県東伯郡湯梨浜町旭１０００－１<br>
+         JR松崎駅前　とんかつ専門店「とん吉」<br>
+メール   ｍｃｃ．ｖｏｌｕｎｔｅｅｒ．２０１９＠ｇｍａｌ．ｃｏｍ</p>-->
+</div>
+
+<div class="text">
+<div class="line"><img src="image/line11.png" alt="線１"></div>
+<h2>SNS情報</h2>
+<p>各種SNSにて情報発信中！</p>
+
+<div id="SNS">
+<ul>
+
+<li><a href="https://twitter.com/MCC_tottori">
+<img src="image/twitter.png" alt="Twitter">
+</a></li>
+
+<li><a>
+<img src="image/line.png" alt="LINE">
+</a></li>
+
+<li><a href="https://instagram.com/meecount.creators.club?igshid=mmu569d6hl9v">
+<img src="image/inst.png" alt="Instagram">
+</a></li>
+
+<li><a>
+<img src="image/face.png" alt="Facebook">
+</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+
+<!--ページトップへ戻るボタン-->
+
+<p id="page-top">
+<a href="#wrap">ページ<br>上へ</a>
+</p>
+<script src="backToTop.js"></script>
+<script>
+$(function() {
+    var topBtn = $('#page-top');	
+	topBtn.hide();
+		$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			topBtn.fadeIn();
+		} else {
+			topBtn.fadeOut();
+		}
+	});
+	topBtn.click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 500);
+		return false;
+    });
+});
+</script>
+</body>
+
+</html>

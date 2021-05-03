@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+body{
+	font-family:"UD デジタル 教科書体 NK-B";
+	line-height:1.5;
+	background-color:#ffffcc;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+img{
+	border:none;
+}
+
+a{
+	text-decoration:none;
+}
+
+li{
+	list-style-type:none;
+}
+
+#wrapper{
+	width:100%;
+	margin:0 auto;
+/*	height:5500px;*/
+	overflow:hidden;
+	position:relative;
+}
+
+
+/*ここからヘッダーの設定*/
+
+header p img{
+	width:100%;
+}
+
+
+header h1 img{
+	width:50%;
+	padding-top:10px;
+	padding-left:70px;
+}
+
+/*ハンバーガーメニューエリアここから*/
+
+#nav_btn{
+	display:block;
+	background-repeat:no-repeat;
+	width:100px;
+	height:100px;
+	background-image:url(../image/open.png);
+	position:absolute;
+	top:65px;
+	right:45px;
+	z-index:1;
+	background-size:100%;
+}
+
+
+#nav_tab{
+	display:none;
+}
+
+#nav_tab:checked+label>#nav_btn{
+	background-image:url(../image/close.png);
+}
+
+#nav_tab:checked~nav{
+	left:71%;
+}
+
+nav{
+	width:100%;
+/*	height:100vh;*/
+	position:absolute;
+	top:20px;
+	left:100%;
+	padding-top:10em;
+	transition:.5s;
+}
+
+nav ul li{
+	background-color:#ffffcc;
+}
+
+nav ul li img{
+	width:25%;
+}
+
+/*ここからメインの設定*/
+
+.text{
+	width:85%;
+	margin:20px auto;
+	color:#333;
+	font-size:200%;
+/*	background-color:#ff0000;*/
+}
+
+.line img{
+	text-align:center;
+	width:100%;
+}
+
+.line2 img{
+	text-align:center;
+	width:50%;
+}
+
+.text h2 span{
+	font-size:60%;
+}
+
+.fhoto{
+	margin-top:40px;
+	text-align:center;
+}
+
+.fhoto img{
+	width:60%;
+}
+
+table{
+	empty-cells:hide;
+}
+
+/*ページトップへ戻るボタン*/
+
+#page-top {
+    position: fixed;
+	bottom: 20px;
+	right: 40px;
+	font-size: 180%;
+}
+#page-top a {
+	background: #0033cc;
+	text-decoration: none;
+	color: #fff;
+	width:100px;
+	padding: 20px 0;
+	text-align: center;
+	display: block;
+	border-radius: 5px;
+}
+#page-top a:hover {
+	text-decoration: none;
+	background: #999;
+}
+
+.text h3{
+	margin-top:20px;
+}
+
+/*ここからSNS枠の設定*/
+#SNS {
+	margin-bottom:300px;
+}
+
+#SNS img{
+	width:10%;
+	float:left;
+	margin:30px 20px;
+}
+
+
+#form p{
+	padding-top:50px;
+}

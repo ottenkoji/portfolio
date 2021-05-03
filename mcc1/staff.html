@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>スタッフ募集</title>
+<link href="css/try.css" rel="stylesheet">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="js/jquery.js" charset="utf-8"></script>
+<script src="js/jquery.page-scroller.js" charset="utf-8"></script>
+
+</head>
+
+
+<body>
+<div id= "wrapper">
+<!--ここからヘッダーの設定-->
+<header>
+<p><img src="image/flag1.png" alt=""></p>
+<h1><img src="image/nav4.png" alt="スタッフ募集"></h1>
+</header>
+
+<input type="checkbox" id="nav_tab">
+<label for="nav_tab"><span id="nav_btn"></span></label>
+
+<!--ここからナビの設定-->
+
+<nav>
+<ul>
+
+<li><a href="index.html">
+<img src="image/hnav1.png" alt="ホーム">
+</a></li>
+
+<li><a href="plofile.html">
+<img src="image/hnav2.png" alt="自己紹介">
+</a></li>
+
+<li><a href="history.html">
+<img src="image/hnav3.png" alt="活動紹介">
+</a></li>
+
+<li><a href="plan.html">
+<img src="image/hnav4.png" alt="活動予定">
+</a></li>
+
+<li><a href="staff.html">
+<img src="image/hnav5.png" alt="スタッフ募集">
+</a></li>
+
+</nav>
+
+
+<!--ここまでヘッダーの設定-->
+
+
+
+<!--ここからメインの設定-->
+
+<div id="main">
+
+<div class="text">
+<div class="line"><img src="image/line11.png" alt="線１"></div>
+<h2>スタッフ希望者さんへ</h2>
+<p>MCCでは、「子ども達に出会いを！」のスローガンの<br>
+もと一緒に活動してくれる仲間を募集しています！<br>
+ご要望の方には、個別オンライン説明会を行います。<br>
+下記のフォームよりご連絡いただければ、<br>
+担当よりメールでお返事いたします。</p>
+
+
+<div id="form">
+<a href="#">
+<p>お申込みのご連絡はこちらから</p>
+</a>
+</div>
+
+</div>
+</div>
+
+
+<!--ページトップへ戻るボタン-->
+
+<p id="page-top">
+<a href="#wrap">ページ<br>上へ</a>
+</p>
+<script src="backToTop.js"></script>
+<script>
+$(function() {
+    var topBtn = $('#page-top');	
+	topBtn.hide();
+		$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
